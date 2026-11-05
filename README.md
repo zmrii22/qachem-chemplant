@@ -14,7 +14,9 @@ Chemical testing involves incoming materials, production readings, follow-up att
 
 ## My contribution
 
-Developed the system from project requirements during my internship at Top Glove, including interfaces, backend workflow logic, database integration, debugging, and user acceptance testing.
+Built the system from scratch during my internship at Top Glove: laboratory interfaces, PHP endpoints, MySQL data handling, test-attempt workflows, tracking, COA output, debugging, and user acceptance testing.
+
+**[Read the portfolio case study](https://zamri-portfolio.vercel.app/projects/qass-chemplant)** · **[Engineering decisions and verification](docs/engineering.md)**
 
 ## Features
 
