@@ -1,0 +1,138 @@
+/* Screen controls stay outside the printable paper forms. */
+[hidden]{display:none!important}
+#incomingPrint{display:none}
+.incoming-table-hint{display:none}
+.incoming-form-page{color:#253449;background:#edf1f6}
+.incoming-form-layout{display:grid;grid-template-columns:minmax(0,1fr) 344px;gap:24px;padding:0 24px;max-width:1520px;margin:0 auto;align-items:start}
+body[data-form-id="incoming-liquid"] .incoming-form-layout{max-width:1232px}
+.incoming-document-column{min-width:0;overflow-x:auto}
+.incoming-side-panel{position:sticky;top:24px;display:flex;flex-direction:column;gap:16px;max-height:calc(100vh - 48px);margin:24px 0;min-width:0;font:13px/1.5 Arial,Helvetica,sans-serif;color:#425366}
+.incoming-actions,.incoming-reference{background:#fff;border:1px solid #dce3ec;border-radius:12px;box-shadow:0 3px 12px #26385205}
+.incoming-actions{flex:none;padding:18px}
+.incoming-action-heading,.incoming-record-heading,.incoming-reference-heading,.incoming-secondary-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.incoming-action-heading{margin-bottom:18px;font-size:12px;color:#697b90}
+.incoming-side-panel a{color:#30577c;text-decoration:none}
+.incoming-side-panel a:hover{text-decoration:underline}
+.incoming-action-heading a{font-weight:600}
+.incoming-record-heading{margin-bottom:12px}
+#incomingRecordNo{font-size:10px;letter-spacing:.65px;color:#687b90;overflow-wrap:anywhere}
+.incoming-action-buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.incoming-side-panel button,.incoming-side-panel .btn,.incoming-calculator button{font:600 12px/1.4 Arial,sans-serif;border:1px solid #d3ddea;border-radius:7px;background:#fff;padding:9px 10px;color:#334e6e;text-decoration:none;cursor:pointer;transition:background .15s,border-color .15s}
+.incoming-side-panel button:hover,.incoming-calculator button:hover{background:#f3f7fc;border-color:#a5bad3}
+.incoming-side-panel .primary{background:#2164d8;color:#fff;border-color:#2164d8}
+.incoming-side-panel .primary:hover{background:#1857c1}
+.incoming-side-panel button:disabled{opacity:.5;cursor:default}
+.incoming-side-panel :focus-visible{outline:2px solid #367ce0;outline-offset:2px}
+.incoming-secondary-actions{font-size:11px}
+.incoming-secondary-actions button{padding:0;border:0;background:transparent;color:#718198;font-size:11px;font-weight:400}
+#incomingState{font-size:11px;color:#6b7e90;margin:12px 0 10px;overflow-wrap:anywhere}
+#incomingState.error,.alert.error{color:#b42318}
+.incoming-reference{padding:18px;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#c5d0df transparent}
+.incoming-reference h3{margin:0;font-size:16px;letter-spacing:-.25px;color:#20354d}
+.incoming-reference header p{margin:8px 0 0;color:#657b91;font-size:12px;overflow-wrap:anywhere}
+#toggleIncomingReference{margin-top:10px;padding:4px 0;border:0;background:transparent;color:#44739e;font-size:11px;font-weight:500}
+.badge{display:inline-block;font-size:9px;font-weight:600;border-radius:5px;padding:4px 7px;color:#607188;background:#f0f3f7;white-space:nowrap}
+.badge.pass,.incoming-result.pass{color:#16734b;background:#edf8f1}
+.badge.fail,.badge.rejected,.incoming-result.fail{color:#b42318;background:#fff0ee}
+.badge.hold,.badge.pending,.badge.review{color:#946910;background:#fff6dd}
+.incoming-material-details{display:flex;flex-wrap:wrap;gap:10px 18px;padding:14px 0;margin-bottom:5px;font-size:10px;color:#7c8b9c;border-bottom:1px solid #edf0f5}
+.incoming-material-details strong{display:block;color:#455c73;font-size:11px;font-weight:400;margin-top:2px}
+.incoming-reference-label{font-size:10px;color:#7b8c9e;letter-spacing:.65px;text-transform:uppercase;margin:16px 0 8px}
+.incoming-reference-tests{display:grid;gap:10px}
+.incoming-reference-tests article{border:1px solid #e2e9f1;border-radius:8px;padding:12px}
+.incoming-reference h4{margin:0;font-size:12px;font-weight:600;color:#334d68}
+.incoming-reference-test-head,.incoming-reference-result{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.incoming-reference-limit{margin:8px 0 0;font-size:14px;line-height:1.45;color:#203c59;white-space:pre-line}
+.incoming-reference-limit small{font-size:11px;color:#71839a}
+.incoming-reference-method{margin:9px 0 0;font-size:11px;white-space:pre-line;color:#60758a}
+.incoming-reference-method>span{display:block;font-size:10px;color:#8996a5;margin-bottom:2px}
+.incoming-reference-result{border-top:1px solid #edf1f6;margin-top:10px;padding-top:8px;font-size:10px;color:#7c8c9d}
+.incoming-result{padding:3px 6px;border-radius:4px;max-width:60%;font-size:11px;font-variant-numeric:tabular-nums}
+.incoming-note{font-size:10px;line-height:1.5;color:#8291a3;overflow-wrap:anywhere;margin:14px 0 0}
+.incoming-reference-entry{margin-top:10px;font-size:10px;color:#71839a}
+.incoming-reference label{display:block;font-size:10px}
+.incoming-reference input,.incoming-reference select{font:12px Arial,sans-serif;max-width:100%;width:100%;border:1px solid #d6e1ec;border-radius:5px;padding:7px;margin-top:4px;background:#fbfcfe;color:#30465d}
+.incoming-reference .actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.incoming-samples{display:flex;gap:8px;margin-top:4px}
+.incoming-samples label{flex:1;min-width:0;margin:0}
+.incoming-test-scroll{overflow-x:auto}
+.incoming-calculator{border:1px solid #d9dde5;border-radius:10px;max-width:calc(100vw - 24px)}
+.incoming-calculator header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.incoming-calculator table{width:100%;font-size:12px}
+.incoming-calculator table input{max-width:100px}
+.incoming-calculator::backdrop{background:#192e4855}
+.incoming-calculator:not([open]){display:none}
+@media(max-width:1100px){
+  .incoming-form-layout,body[data-form-id="incoming-liquid"] .incoming-form-layout{grid-template-columns:1fr;padding:0 12px;gap:0}
+  .incoming-side-panel{position:static;order:-1;display:grid;grid-template-columns:300px minmax(0,1fr);max-height:none;margin:16px 0 0;gap:12px;align-items:start}
+  .incoming-reference{max-height:300px}
+  .incoming-document-column .document-wrap{padding:16px 0 24px}
+}
+@media(max-width:650px){
+  .incoming-side-panel{grid-template-columns:1fr;gap:12px}
+  .incoming-reference{max-height:340px}
+  .incoming-actions,.incoming-reference{padding:14px}
+  .incoming-action-heading{margin-bottom:10px}
+}
+@media print{
+  .incoming-form-page{background:#fff;color:#000}
+  .incoming-form-layout{display:block;padding:0;max-width:none}
+  .incoming-document-column{overflow:visible}
+  .incoming-side-panel,.incoming-calculator{display:none!important}
+  body.incoming-printing>#incomingDialog{display:none!important}
+  body.incoming-printing>#incomingPrint{display:block!important}
+  .incoming-printed-value{vertical-align:bottom;white-space:nowrap;overflow:hidden}
+}
+
+/* Screen editing adapts to the device; the original paper sizes apply only in print. */
+@media screen and (max-width:1100px){
+  .incoming-document-column{overflow:visible}
+  .incoming-html-form .document-wrap{align-items:stretch;overflow:visible}
+  .incoming-html-form .page.liquid,.incoming-html-form .page.powder{width:100%;height:auto;min-height:0;padding:24px 20px 30px}
+  .incoming-html-form .header h1{font-size:14pt;line-height:1.2}
+  .incoming-html-form .header h2{font-size:12pt;line-height:1.2}
+  .incoming-table-viewport{width:100%;overflow:auto;overscroll-behavior-x:contain;margin:0}
+  .incoming-html-form .page.powder .form-table{min-width:640px}
+  .incoming-html-form .form-table th,.incoming-html-form .form-table td{line-height:1.2}
+  .incoming-html-form .line-input,.incoming-html-form .cell-input{min-height:28px;height:28px}
+  .incoming-html-form .meta input[type=date],.incoming-html-form .meta input[type=datetime-local]{height:28px}
+  .incoming-html-form .footer-signoff{position:static;margin-top:32px}
+  .incoming-html-form .revision{position:static;text-align:right;margin-top:16px}
+  .incoming-html-form .signoff{gap:24px}
+}
+@media screen and (max-width:759px){
+  .incoming-html-form .incoming-table-hint{display:block;font:11px/1.5 Arial,sans-serif;color:#6b7e90;margin:10px 0}
+  .incoming-html-form .page.liquid .meta.two,.incoming-html-form .page.powder .meta.three{grid-template-columns:1fr;gap:12px}
+  .incoming-html-form .meta-row{min-height:32px}
+  .incoming-html-form .page.powder .split-title{gap:14px;font-size:10pt}
+  .incoming-html-form .page.powder .split-title>div:nth-child(2){padding-left:0;padding-right:0!important;flex-wrap:wrap;gap:6px}
+}
+@media screen and (max-width:520px){
+  .incoming-form-layout,body[data-form-id="incoming-liquid"] .incoming-form-layout{padding:0 8px}
+  .incoming-html-form .page.liquid,.incoming-html-form .page.powder{padding:20px 12px 24px}
+  .incoming-html-form .header h1{font-size:12pt}
+  .incoming-html-form .header h2{font-size:10.5pt}
+  .incoming-html-form .form-table th,.incoming-html-form .form-table td{font-size:9.5pt;padding:4px 3px}
+  .incoming-html-form .page.liquid .form-table{min-width:300px}
+  .incoming-html-form .meta{font-size:10pt}
+  .incoming-html-form .signoff{grid-template-columns:1fr;gap:16px}
+  .incoming-html-form .incoming-packaging{flex-wrap:wrap}
+  .incoming-html-form .incoming-packaging .incoming-remark{flex-basis:80px}
+  .incoming-html-form .disposition{gap:10px;font-size:10pt}
+  .incoming-html-form .check-item{white-space:normal}
+}
+@media screen and (min-width:1101px) and (max-width:1450px){
+  body[data-form-id="incoming-powder"] .incoming-form-layout{grid-template-columns:1fr}
+  body[data-form-id="incoming-powder"] .incoming-side-panel{position:static;order:-1;display:grid;grid-template-columns:300px minmax(0,1fr);max-height:none;margin:16px 0 0;align-items:start}
+  body[data-form-id="incoming-powder"] .incoming-reference{max-height:300px}
+}
+@media screen and (min-width:1101px) and (max-width:1250px){
+  body[data-form-id="incoming-liquid"] .incoming-form-layout{grid-template-columns:1fr}
+  body[data-form-id="incoming-liquid"] .incoming-side-panel{position:static;order:-1;display:grid;grid-template-columns:300px minmax(0,1fr);max-height:none;margin:16px 0 0;align-items:start}
+  body[data-form-id="incoming-liquid"] .incoming-reference{max-height:300px}
+}
+@media screen and (max-width:650px){
+  .incoming-form-page{padding-bottom:72px}
+  .incoming-action-buttons{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 12px;border-top:1px solid #dce3ec;background:#fff;box-shadow:0 -4px 16px #2638520a}
+  .incoming-action-buttons button{min-height:42px}
+}

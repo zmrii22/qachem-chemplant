@@ -1,0 +1,382 @@
+{
+  "source": "Incoming raw mat details integrated with system.xlsx",
+  "sheet": "Sheet2",
+  "entries": [
+    {
+      "chemical": "Sodium Hypochlorite 10%",
+      "suppliers": [
+        "Taiko",
+        "Maychem",
+        "CCM Chemicals",
+        "Kong Long Huat Chemicals"
+      ]
+    },
+    {
+      "chemical": "Caustic Soda 48.5%",
+      "suppliers": [
+        "Taiko",
+        "Maychem",
+        "CCM Chemicals",
+        "Kong Long Huat Chemicals"
+      ]
+    },
+    {
+      "chemical": "Surf S45",
+      "suppliers": [
+        "Chemweb"
+      ]
+    },
+    {
+      "chemical": "Flosperse DT 57A",
+      "suppliers": [
+        "Aromatic Fine"
+      ]
+    },
+    {
+      "chemical": "Genaminox LA",
+      "suppliers": [
+        "Aromatic Fine",
+        "Chemweb"
+      ]
+    },
+    {
+      "chemical": "Minox-L",
+      "suppliers": [
+        "Chemical Mate"
+      ]
+    },
+    {
+      "chemical": "Glucopon 650EC",
+      "suppliers": [
+        "Chemweb"
+      ]
+    },
+    {
+      "chemical": "Soda Ash",
+      "suppliers": [
+        "Taiko",
+        "Chemweb"
+      ]
+    },
+    {
+      "chemical": "Lanphos",
+      "suppliers": [
+        "Caldic"
+      ]
+    },
+    {
+      "chemical": "LS100",
+      "suppliers": [
+        "Masda"
+      ]
+    },
+    {
+      "chemical": "Potassium Hydroxide 90% (Korea)",
+      "suppliers": [
+        "Kong Long Huat Chemicals",
+        "Linachem",
+        "Excelkos"
+      ]
+    },
+    {
+      "chemical": "Potassium Hydroxide 90% (China)",
+      "suppliers": [
+        "Kong Long Huat Chemicals",
+        "Luxchem",
+        "YYTech Materials"
+      ]
+    },
+    {
+      "chemical": "Potassium Hydroxide 90% (Jordan)",
+      "suppliers": [
+        "Centre West"
+      ]
+    },
+    {
+      "chemical": "Hidis 45N",
+      "suppliers": [
+        "Caldic"
+      ]
+    },
+    {
+      "chemical": "Marpol 25",
+      "suppliers": [
+        "M&G Mixing"
+      ]
+    },
+    {
+      "chemical": "Teric 320",
+      "suppliers": [
+        "KC Chemicals"
+      ]
+    },
+    {
+      "chemical": "Trilon B",
+      "suppliers": [
+        "Chemweb"
+      ]
+    },
+    {
+      "chemical": "Agwet S3",
+      "suppliers": [
+        "KC Chemicals"
+      ]
+    },
+    {
+      "chemical": "Dissolvine NA",
+      "suppliers": [
+        "Aromatic Fine",
+        "Age Dor Industrial"
+      ]
+    },
+    {
+      "chemical": "Lysurf GL 320A",
+      "suppliers": [
+        "Luxchem"
+      ]
+    },
+    {
+      "chemical": "Sodium Metasilicate Pentahydrate",
+      "suppliers": [
+        "Taiko",
+        "Aromatic Fine",
+        "Chemweb",
+        "Stallion"
+      ]
+    },
+    {
+      "chemical": "TG AP 10",
+      "suppliers": [
+        "Adikem"
+      ]
+    },
+    {
+      "chemical": "EM 1300",
+      "suppliers": [
+        "Entire Concept"
+      ]
+    },
+    {
+      "chemical": "EM 1262",
+      "suppliers": [
+        "Entire Concept"
+      ]
+    },
+    {
+      "chemical": "Polymer 1101",
+      "suppliers": [
+        "Mortrade"
+      ]
+    },
+    {
+      "chemical": "Tekspro 5168",
+      "suppliers": [
+        "Finn Chemicals"
+      ]
+    },
+    {
+      "chemical": "TG MAT 05",
+      "suppliers": [
+        "Caldic"
+      ]
+    },
+    {
+      "chemical": "TG MAT 12",
+      "suppliers": [
+        "Caldic"
+      ]
+    },
+    {
+      "chemical": "ACUZON WE 980",
+      "suppliers": [
+        "Accurativ"
+      ]
+    },
+    {
+      "chemical": "TG WET LA",
+      "suppliers": [
+        "Caldic"
+      ]
+    },
+    {
+      "chemical": "RH 208",
+      "suppliers": [
+        "Finn Chemicals"
+      ]
+    },
+    {
+      "chemical": "Alchemex 3546",
+      "suppliers": [
+        "Alchemy"
+      ]
+    },
+    {
+      "chemical": "Alchemex 2040",
+      "suppliers": [
+        "Alchemy"
+      ]
+    },
+    {
+      "chemical": "TG SE 608",
+      "suppliers": [
+        "Adikem"
+      ]
+    },
+    {
+      "chemical": "Emul 608",
+      "suppliers": [
+        "Patchem"
+      ]
+    },
+    {
+      "chemical": "Texapon OCN",
+      "suppliers": [
+        "Chemweb"
+      ]
+    },
+    {
+      "chemical": "Dispex AA 4140AJ",
+      "suppliers": [
+        "Eckem"
+      ]
+    },
+    {
+      "chemical": "Xanthan Gum F80",
+      "suppliers": [
+        "Prima Interchem",
+        "ITS Nutriscience"
+      ]
+    },
+    {
+      "chemical": "Acticide MBS",
+      "suppliers": [
+        "Thor Specialty"
+      ]
+    },
+    {
+      "chemical": "Preventol BM5",
+      "suppliers": [
+        "Eckem"
+      ]
+    },
+    {
+      "chemical": "TG DF 974",
+      "suppliers": [
+        "Caldic"
+      ]
+    },
+    {
+      "chemical": "Silicone Antifoam SAG 630",
+      "suppliers": [
+        "Duro Kimia"
+      ]
+    },
+    {
+      "chemical": "Sodium Sulphide",
+      "suppliers": [
+        "Watertech",
+        "Kong Long Huat Chemicals"
+      ]
+    },
+    {
+      "chemical": "Sodium Thiosulphate",
+      "suppliers": [
+        "Watertech",
+        "Taiko"
+      ]
+    },
+    {
+      "chemical": "TG WE 10",
+      "suppliers": [
+        "Adikem"
+      ]
+    },
+    {
+      "chemical": "Easiflo-40",
+      "suppliers": [
+        "CCM Polymer"
+      ]
+    },
+    {
+      "chemical": "Cyclaron 292",
+      "suppliers": [
+        "CCM Polymer"
+      ]
+    },
+    {
+      "chemical": "SLES (Emersense ES7062)",
+      "suppliers": [
+        "KC Chemicals"
+      ]
+    },
+    {
+      "chemical": "SLES Texapon N70T\nSLES (Tensagex EOM 670B)",
+      "suppliers": [
+        "Chemweb"
+      ]
+    },
+    {
+      "chemical": "SLES (Polymet)",
+      "suppliers": [
+        "Aromatic Fine"
+      ]
+    },
+    {
+      "chemical": "Emul 8408",
+      "suppliers": [
+        "Patchem"
+      ]
+    },
+    {
+      "chemical": "Silicone Oil",
+      "suppliers": [
+        "Luxchem"
+      ]
+    },
+    {
+      "chemical": "Ethonas NP6",
+      "suppliers": [
+        "Excel Specialty"
+      ]
+    },
+    {
+      "chemical": "Polygel P30",
+      "suppliers": [
+        "Conquest Chemicals"
+      ]
+    },
+    {
+      "chemical": "KP 25",
+      "suppliers": [
+        "M&G Mixing"
+      ]
+    },
+    {
+      "chemical": "Sulphuric Acid 50%",
+      "suppliers": [
+        "Taiko",
+        "Maychem"
+      ]
+    },
+    {
+      "chemical": "Nitric Acid 68%",
+      "suppliers": [
+        "Taiko",
+        "Maychem"
+      ]
+    },
+    {
+      "chemical": "Phosphoric Acid",
+      "suppliers": [
+        "Taiko",
+        "Kong Long Huat Chemicals"
+      ]
+    },
+    {
+      "chemical": "Acetic Acid",
+      "suppliers": [
+        "Kong Long Huat Chemicals"
+      ]
+    }
+  ]
+}

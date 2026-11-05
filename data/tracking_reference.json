@@ -1,0 +1,251 @@
+{
+  "source": "New project for RBD system.xlsx / Verifier or Factory details",
+  "tracking_source": "Tracking Record QA.xlsx / Tracking Record",
+  "verifiers": [
+    "Tuan Robiatul Adawiyah (Manager,QA)",
+    "Norsyuhada Binti Zulkiflee (Chemist, QA)",
+    "Muhammad Aliff Syazwan Bin Tan Zohri (Supervisor, QA)"
+  ],
+  "factories": [
+    {
+      "code": "F9",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F4",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F5",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F23",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F10",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F11",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F12",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F13",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F19",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F20",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F21",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F22",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F24",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "F30",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "M26",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F25ARR",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F5C",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F2",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F31",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F32",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F25",
+      "name": "GMP Medicare Sdn. Bhd."
+    },
+    {
+      "code": "F29",
+      "name": "GMP Medicare Sdn. Bhd."
+    },
+    {
+      "code": "F27",
+      "name": "GMP Medicare Sdn. Bhd."
+    },
+    {
+      "code": "F33",
+      "name": "GMP Medicare Sdn. Bhd."
+    },
+    {
+      "code": "F3",
+      "name": "TG Medical Sdn. Bhd."
+    },
+    {
+      "code": "F14",
+      "name": "TG Medical Sdn. Bhd."
+    },
+    {
+      "code": "F36",
+      "name": "Terang Nusa Sdn. Bhd."
+    },
+    {
+      "code": "F40",
+      "name": "Terang Nusa Sdn. Bhd."
+    },
+    {
+      "code": "F37CD",
+      "name": "Terang Nusa Sdn. Bhd."
+    },
+    {
+      "code": "F37AB",
+      "name": "Purnabina Sdn. Bhd."
+    },
+    {
+      "code": "F38A1",
+      "name": "Sentienx Sdn. Bhd."
+    },
+    {
+      "code": "F18",
+      "name": "Flexitech Sdn. Bhd."
+    },
+    {
+      "code": "F18B",
+      "name": "Flexitech Sdn. Bhd."
+    },
+    {
+      "code": "F18G",
+      "name": "Flexitech Sdn. Bhd."
+    },
+    {
+      "code": "F35",
+      "name": "Top Feel Sdn. Bhd."
+    },
+    {
+      "code": "F35A",
+      "name": "TG Medical Sdn. Bhd."
+    },
+    {
+      "code": "F15",
+      "name": "Great Glove (Xing Hua) Co. Lt"
+    },
+    {
+      "code": "F6",
+      "name": "Great Glove (Thailand)"
+    },
+    {
+      "code": "F39DD",
+      "name": "Duramedical Sdn. Bhd."
+    },
+    {
+      "code": "RBD",
+      "name": "Top Glove Chemical Sdn. Bhd."
+    },
+    {
+      "code": "F1BHC",
+      "name": "TG Healthcare Sdn. Bhd."
+    },
+    {
+      "code": "TGEC",
+      "name": "Top Glove Engineering Sdn. Bhd."
+    },
+    {
+      "code": "QA",
+      "name": "QA"
+    },
+    {
+      "code": "F02B",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F2B",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "F07",
+      "name": "Top Glove Medical (Thailand) CO., LTD."
+    },
+    {
+      "code": "F19/20",
+      "name": "Top Glove Sdn. Bhd."
+    },
+    {
+      "code": "M02",
+      "name": "Top Quality Glove Sdn. Bhd."
+    },
+    {
+      "code": "M09",
+      "name": "Top Glove Sdn. Bhd."
+    }
+  ],
+  "remarks": [
+    {
+      "key": "base_compliance",
+      "label": "Compliance and stirring",
+      "text": "The material complies with provided specifications. Stir well before used.",
+      "compulsory": true
+    },
+    {
+      "key": "base_returns",
+      "label": "Factory incoming acceptance",
+      "text": "Once the finished goods passed incoming checking from factory’s QA, the used chemical are non-returnable.",
+      "compulsory": true
+    },
+    {
+      "key": "cleaning_chlorine",
+      "label": "Cleaning agents (except KZ)",
+      "text": "*The material complies with provided specifications. Chlorine level can drop to less than 70% of the above test result, within 1 month depending on the storage temperature.",
+      "compulsory": false
+    },
+    {
+      "key": "ptc",
+      "label": "TG PTC",
+      "text": "*The material complies with provided specifications. Alkalinity level can drop to less than 70% of the above test result, within 1 month depending on the storage conditions.",
+      "compulsory": false
+    },
+    {
+      "key": "arp_storage",
+      "label": "ARP products: storage",
+      "text": "Shelf life of this product is 3 months with the condition to keep it in cool & dry place.",
+      "compulsory": false
+    },
+    {
+      "key": "arp_ph",
+      "label": "ARP products: pH",
+      "text": "*The material complies with provided specifications. pH level can drop to less than 10% of the above test result, within 3 months depending on the storage conditions.",
+      "compulsory": false
+    },
+    {
+      "key": "hypo",
+      "label": "In-house sodium hypochlorite",
+      "text": "*The material complies with provided specifications. Chlorine level can drop to less than 50% of the above test result, within 2 weeks depending on the storage conditions.",
+      "compulsory": false
+    }
+  ]
+}

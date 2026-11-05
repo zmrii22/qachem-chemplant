@@ -1,0 +1,73 @@
+/* Keep screen and PDF paper geometry together; application controls live outside it. */
+.incoming-html-form .meta > div,
+.incoming-html-form .meta-row > *,
+.incoming-html-form .signoff > div,
+.incoming-html-form .signoff .box > * { min-width: 0; }
+.incoming-html-form .meta-row {
+  grid-template-columns: max-content 10px minmax(0, 1fr);
+  align-items: center;
+  min-height: 23px;
+}
+.incoming-html-form .meta-row > span:first-child { white-space: nowrap; }
+.incoming-html-form .page.liquid .meta.two {
+  grid-template-columns: minmax(0, 1.2fr) minmax(285px, .9fr);
+  column-gap: 18px;
+}
+.incoming-html-form .page.powder .meta.three {
+  grid-template-columns: minmax(0, 1fr) minmax(0, .86fr) minmax(0, 1.16fr);
+  column-gap: 18px !important;
+}
+.incoming-html-form .meta input[type="date"],
+.incoming-html-form .meta input[type="datetime-local"] {
+  font-size: 9.5pt;
+  height: 21px;
+}
+.incoming-html-form .page.liquid .meta input[type="datetime-local"]{font-size:9pt}
+.incoming-html-form .incoming-observation-value {
+  display: grid;
+  grid-template-columns: 8px minmax(0, 1fr);
+  align-items: center;
+  min-height: 19px;
+}
+.incoming-html-form .incoming-observation-value > * { min-width: 0; }
+.incoming-html-form .incoming-packaging {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 21px;
+}
+.incoming-html-form .incoming-packaging .incoming-condition {
+  flex: 0 0 92px;
+  width: 92px;
+  height: 21px;
+  text-align: left;
+}
+.incoming-html-form .incoming-packaging .incoming-remark-label { white-space: nowrap; }
+.incoming-html-form .incoming-packaging .incoming-remark {
+  flex: 1 1 70px;
+  width: 70px;
+  min-width: 0;
+}
+.incoming-html-form .incoming-particle-row > td { border-width: 1px; }
+.incoming-html-form .signoff .box {
+  grid-template-columns: max-content 12px minmax(0, 1fr);
+  align-items: center;
+  min-height: 22px;
+}
+.incoming-html-form .signoff .line-input { height: 21px; }
+.incoming-html-form .signoff [data-document-signature="date"] { max-width: 175px; }
+.incoming-html-form .page.powder .footer-signoff { bottom: 1.28cm; }
+.incoming-html-form .page.powder .revision { bottom: .45cm; }
+
+/* Keep the native supplier dropdown accessible while showing its complete name. */
+.incoming-supplier-picker{position:relative;min-width:0}
+.incoming-supplier-picker select{position:absolute;inset:0;z-index:1;width:100%;height:100%;opacity:0;cursor:pointer}
+.incoming-html-form .incoming-supplier-value{display:block;min-height:21px;padding:2px 17px 2px 2px;border-bottom:1px solid #000;white-space:normal;overflow-wrap:anywhere;line-height:1.2}
+.incoming-supplier-picker::after{content:'⌄';position:absolute;right:3px;top:1px;pointer-events:none}
+.incoming-supplier-picker:focus-within{outline:2px solid #b7d6f7;outline-offset:1px}
+@media print{
+  .incoming-table-viewport{display:contents}
+  .incoming-supplier-picker::after,.incoming-html-form .incoming-supplier-value{display:none!important}
+  .incoming-html-form .incoming-supplier-picker>.incoming-printed-value{display:block!important;white-space:normal;line-height:1.2;height:auto;min-height:18px}
+}
+

@@ -1,0 +1,456 @@
+{
+  "factories": [
+    {
+      "id": 1,
+      "factory_code": "DEMO-1",
+      "factory_name": "Demo Plant 1",
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00"
+    },
+    {
+      "id": 2,
+      "factory_code": "DEMO-2",
+      "factory_name": "Demo Plant 2",
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "factory_code": "DEMO-1",
+      "location_code": "DEMO-TANK-1",
+      "location_type": "TANK",
+      "default_batch_code": "DEMO-1",
+      "default_product_type": "Sodium Hypochlorite",
+      "active": 1
+    },
+    {
+      "id": 2,
+      "factory_code": "DEMO-2",
+      "location_code": "DEMO-TANK-2",
+      "location_type": "TANK",
+      "default_batch_code": "DEMO-2",
+      "default_product_type": "Cydomer",
+      "active": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Demo Product 1",
+      "product_type": "Acid",
+      "batch_code": "DEMO-1",
+      "appearance": "Demo Product 1",
+      "shelf_life_value": "3.00",
+      "shelf_life_unit": "MONTH",
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00",
+      "updated_at": "2026-01-01 00:00:00"
+    },
+    {
+      "id": 2,
+      "product_name": "Demo Product 2",
+      "product_type": "Anti-Tack",
+      "batch_code": "DEMO-2",
+      "appearance": "Demo Product 2",
+      "shelf_life_value": "3.00",
+      "shelf_life_unit": "MONTH",
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00",
+      "updated_at": "2026-01-01 00:00:00"
+    }
+  ],
+  "raw_materials": [
+    {
+      "id": 1,
+      "material_type": "LIQUID",
+      "material_name": "Demo Material 1",
+      "supplier": "Demo Material 1",
+      "appearance": "Demo Material 1",
+      "shelf_life_text": "1 Year",
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00",
+      "updated_at": "2026-01-01 00:00:00",
+      "chemical_type": "Acid",
+      "incoming_source": "Incoming raw mat details integrated with system.xlsx",
+      "source_row": 0
+    },
+    {
+      "id": 2,
+      "material_type": "LIQUID",
+      "material_name": "Demo Material 2",
+      "supplier": "Demo Material 2",
+      "appearance": "Demo Material 2",
+      "shelf_life_text": "1 Year",
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00",
+      "updated_at": "2026-01-01 00:00:00",
+      "chemical_type": "Biocide",
+      "incoming_source": "Incoming raw mat details integrated with system.xlsx",
+      "source_row": 0
+    }
+  ],
+  "methods": [
+    {
+      "method_key": 1,
+      "method_code": "TSC",
+      "method_name": "Demo calculation 1",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=foil/dish weight; B=wet sample; C=foil/dish + dry sample\"}",
+      "formula_text": "((C-A)/B)*100",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 2,
+      "method_code": "ALK_CA",
+      "method_name": "Demo calculation 2",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"C=initial titrant V1; D=final titrant V2\"}",
+      "formula_text": "(D-C)*1.6",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 3,
+      "method_code": "ALK_HF",
+      "method_name": "Demo calculation 3",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"C=initial titrant V1; D=final titrant V2\"}",
+      "formula_text": "(D-C)*0.16",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 4,
+      "method_code": "ALK_PTC",
+      "method_name": "Demo calculation 4",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"C=V1; D=V2; E=V3\"}",
+      "formula_text": "((D-C)+(E-D))*5",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 5,
+      "method_code": "CHLORINE",
+      "method_name": "Demo calculation 5",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"C=initial titrant; D=final titrant\"}",
+      "formula_text": "(D-C)*0.142",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 6,
+      "method_code": "FOAM",
+      "method_name": "Demo calculation 6",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"C=H1; D=H2\"}",
+      "formula_text": "D-C",
+      "result_unit": "cm",
+      "active": 1
+    },
+    {
+      "method_key": 7,
+      "method_code": "FILTRATION",
+      "method_name": "Demo calculation 7",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=W1 sample; B=W2 mesh; C=W3 dried mesh residue\"}",
+      "formula_text": "((C-B)/A)*100",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 8,
+      "method_code": "ACIDITY",
+      "method_name": "Demo calculation 8",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"B=initial titrant; C=final titrant\"}",
+      "formula_text": "((C-B)+0.56)/0.31",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 9,
+      "method_code": "BACTERIA",
+      "method_name": "Demo calculation 9",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=reading\"}",
+      "formula_text": "A",
+      "result_unit": "CFU/mL",
+      "active": 1
+    },
+    {
+      "method_key": 10,
+      "method_code": "PH",
+      "method_name": "Demo calculation 10",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=reading; B=temperature\"}",
+      "formula_text": "A",
+      "result_unit": "",
+      "active": 1
+    },
+    {
+      "method_key": 11,
+      "method_code": "VISCOSITY",
+      "method_name": "Demo calculation 11",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=cP; B=Torque; C=Temperature\"}",
+      "formula_text": "A",
+      "result_unit": "cP",
+      "active": 1
+    },
+    {
+      "method_key": 12,
+      "method_code": "CHL_INHOUSE",
+      "method_name": "Demo calculation 12",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"C=initial titrant; D=final titrant\"}",
+      "formula_text": "(D-C)*25*0.0142",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 13,
+      "method_code": "SG",
+      "method_name": "Demo calculation 13",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=reading\"}",
+      "formula_text": "A",
+      "result_unit": "g/mL",
+      "active": 1
+    },
+    {
+      "method_key": 14,
+      "method_code": "MOISTURE",
+      "method_name": "Demo calculation 14",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=petri dish; B=sample; C=sample+petri after heating\"}",
+      "formula_text": "(((A+B)-C)/(A+B))*100",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 15,
+      "method_code": "DRY_SIEVE",
+      "method_name": "Demo calculation 15",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=empty plate; B=sample; C=sample after sieve + plate\"}",
+      "formula_text": "((C-A)/B)*100",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 16,
+      "method_code": "CHL_SUPPLIER",
+      "method_name": "Demo calculation 16",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=sample weight; C=initial titrant; D=final titrant\"}",
+      "formula_text": "(D-C)*3.72/(2*A)",
+      "result_unit": "%",
+      "active": 1
+    },
+    {
+      "method_key": 17,
+      "method_code": "NAOH_SUPPLIER",
+      "method_name": "Demo calculation 17",
+      "description": "Illustrative calculation for software demonstration.",
+      "input_schema": "{\"inputs\": \"A=sample weight; C=initial titrant; D=final titrant\"}",
+      "formula_text": "(D-C)*4/A",
+      "result_unit": "%",
+      "active": 1
+    }
+  ],
+  "spec_profiles": [
+    {
+      "id": 1,
+      "entity_type": "PRODUCT",
+      "entity_id": 1,
+      "spec_type": "IQS",
+      "factory_scope": "DEMO-1",
+      "supplier_scope": null,
+      "revision": "DEMO",
+      "source_ref": "Fictional portfolio data",
+      "effective_date": null,
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00",
+      "updated_at": "2026-01-01 00:00:00"
+    },
+    {
+      "id": 2,
+      "entity_type": "PRODUCT",
+      "entity_id": 1,
+      "spec_type": "QS",
+      "factory_scope": "DEMO-1",
+      "supplier_scope": null,
+      "revision": "DEMO",
+      "source_ref": "Fictional portfolio data",
+      "effective_date": null,
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00",
+      "updated_at": "2026-01-01 00:00:00"
+    },
+    {
+      "id": 3,
+      "entity_type": "RAW_MATERIAL",
+      "entity_id": 1,
+      "spec_type": "INCOMING",
+      "factory_scope": "DEMO-1",
+      "supplier_scope": null,
+      "revision": "DEMO",
+      "source_ref": "Fictional portfolio data",
+      "effective_date": null,
+      "active": 1,
+      "created_at": "2026-01-01 00:00:00",
+      "updated_at": "2026-01-01 00:00:00"
+    }
+  ],
+  "spec_rules": [
+    {
+      "id": 1,
+      "profile_id": 1,
+      "parameter_code": "PH",
+      "parameter_name": "Demo PH",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 1,
+      "active": 1
+    },
+    {
+      "id": 2,
+      "profile_id": 1,
+      "parameter_code": "SG",
+      "parameter_name": "Demo SG",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 2,
+      "active": 1
+    },
+    {
+      "id": 3,
+      "profile_id": 1,
+      "parameter_code": "TSC",
+      "parameter_name": "Demo TSC",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 3,
+      "active": 1
+    },
+    {
+      "id": 4,
+      "profile_id": 2,
+      "parameter_code": "PH",
+      "parameter_name": "Demo PH",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 4,
+      "active": 1
+    },
+    {
+      "id": 5,
+      "profile_id": 2,
+      "parameter_code": "SG",
+      "parameter_name": "Demo SG",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 5,
+      "active": 1
+    },
+    {
+      "id": 6,
+      "profile_id": 2,
+      "parameter_code": "TSC",
+      "parameter_name": "Demo TSC",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 6,
+      "active": 1
+    },
+    {
+      "id": 7,
+      "profile_id": 3,
+      "parameter_code": "PH",
+      "parameter_name": "Demo PH",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 7,
+      "active": 1
+    },
+    {
+      "id": 8,
+      "profile_id": 3,
+      "parameter_code": "SG",
+      "parameter_name": "Demo SG",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 8,
+      "active": 1
+    },
+    {
+      "id": 9,
+      "profile_id": 3,
+      "parameter_code": "TSC",
+      "parameter_name": "Demo TSC",
+      "data_type": "NUMERIC",
+      "operator": "RANGE",
+      "low_value": 1.0,
+      "high_value": 10.0,
+      "target_text": null,
+      "unit": "",
+      "method_key": null,
+      "sample_count": 1,
+      "sequence_no": 9,
+      "active": 1
+    }
+  ]
+}

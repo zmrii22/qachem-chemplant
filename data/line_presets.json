@@ -1,0 +1,372 @@
+{
+    "version": 2,
+    "plants": {
+        "F21RBD": {
+            "rows": [
+                {
+                    "location_id": 19,
+                    "product_id": 27,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "CHL",
+                        "SG"
+                    ]
+                },
+                {
+                    "location_id": 18,
+                    "product_id": 20,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "TSC",
+                        "BAC"
+                    ]
+                },
+                {
+                    "location_id": 16,
+                    "product_id": 1,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "ACD"
+                    ]
+                },
+                {
+                    "location_id": 17,
+                    "product_id": 1,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "ACD"
+                    ]
+                },
+                {
+                    "location_id": 22,
+                    "product_id": 0,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": []
+                },
+                {
+                    "location_id": 20,
+                    "product_id": 27,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "CHL",
+                        "SG"
+                    ]
+                },
+                {
+                    "location_id": 23,
+                    "product_id": 0,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": []
+                },
+                {
+                    "location_id": 21,
+                    "product_id": 27,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "CHL",
+                        "SG"
+                    ]
+                },
+                {
+                    "location_id": 27,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 28,
+                    "product_id": 14,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "All except F09, F5C & F23",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 1,
+                    "product_id": 3,
+                    "status": "RUN",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 2,
+                    "product_id": 5,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL",
+                        "FOAM"
+                    ]
+                },
+                {
+                    "location_id": 3,
+                    "product_id": 14,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 4,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 5,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 6,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 7,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 31,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 8,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 9,
+                    "product_id": 16,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "TSC"
+                    ]
+                },
+                {
+                    "location_id": 10,
+                    "product_id": 25,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK"
+                    ]
+                },
+                {
+                    "location_id": 11,
+                    "product_id": 3,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "ALK",
+                        "CHL"
+                    ]
+                },
+                {
+                    "location_id": 12,
+                    "product_id": 30,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "TSC",
+                        "BAC"
+                    ]
+                },
+                {
+                    "location_id": 13,
+                    "product_id": 29,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "TSC",
+                        "BAC"
+                    ]
+                },
+                {
+                    "location_id": 14,
+                    "product_id": 21,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "VCP",
+                        "TSC",
+                        "BAC"
+                    ]
+                },
+                {
+                    "location_id": 15,
+                    "product_id": 21,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "VCP",
+                        "TSC",
+                        "BAC"
+                    ]
+                },
+                {
+                    "location_id": 26,
+                    "product_id": 0,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": []
+                },
+                {
+                    "location_id": 25,
+                    "product_id": 27,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "CHL",
+                        "SG"
+                    ]
+                },
+                {
+                    "location_id": 24,
+                    "product_id": 27,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "PH",
+                        "CHL",
+                        "SG"
+                    ]
+                }
+            ],
+            "updated_at": "2026-11-04T09:31:17+08:00",
+            "updated_by": "Zamrii"
+        },
+        "F40ARP": {
+            "rows": [
+                {
+                    "location_id": 29,
+                    "product_id": 28,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "TSC",
+                        "PH"
+                    ]
+                },
+                {
+                    "location_id": 30,
+                    "product_id": 2,
+                    "status": "STOP",
+                    "spec_type": "IQS",
+                    "factory_specification": "ALL",
+                    "parameters": [
+                        "TSC",
+                        "PH"
+                    ]
+                }
+            ],
+            "updated_at": "2026-10-13T08:20:32+08:00",
+            "updated_by": "Zamrii"
+        }
+    }
+}
